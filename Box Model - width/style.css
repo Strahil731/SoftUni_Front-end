@@ -1,0 +1,49 @@
+body {
+    border: 2px solid #000;
+    display: block;
+}
+
+.fixedWidth {
+    border: 2px solid #000;
+    box-sizing: border-box;
+    width: 300px;
+    margin: 5px;
+}
+
+.fixedWidth p {
+    padding: 10px;
+}
+
+.precentageWidth {
+    border: 2px solid #000;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 5px;
+}
+
+.precentageWidth p{
+    padding: 10px;
+}
+
+.viewportWidth{
+    border: 2px solid #000;
+    box-sizing: border-box;
+    width: 50vw;
+    margin: 5px;
+}
+
+.viewportWidth p{
+    padding: 10px;
+}
+
+.min-max{
+    border: 2px solid #000;
+    box-sizing: border-box;
+    min-width: 100px;
+    max-width: 300px;
+    margin: 5px;
+}
+
+.min-max p{
+    padding: 10px;
+}
