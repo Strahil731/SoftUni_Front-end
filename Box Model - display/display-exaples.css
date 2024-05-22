@@ -1,0 +1,25 @@
+.block,
+.inline,
+.inline-block {
+    border: 2px solid #000;
+    padding: 1em 2em 1em 2em;  /*top, right, bottom, left*/
+    margin-bottom: 2em;
+}
+
+.block p {
+    border: 1px solid #CCC;
+    padding: 1em;
+    display: block;
+}
+
+.inline p {
+    border: 1px solid #CCC;
+    padding: 1em;
+    display: inline;
+}
+
+.inline-block p {
+    border: 1px solid #CCC;
+    padding: 1em;
+    display: inline-block;
+}
