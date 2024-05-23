@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.overflowVisible {
+    width: 300px;
+    max-height: 140px;
+    border: 2px solid #000;
+    display: block;
+    margin: 10px;
+    overflow: visible;
+    line-height: 20px;
+    padding: 20px 5px 0 5px;
+}
+
+.overflowHidden {
+    width: 300px;
+    max-height: 140px;
+    display: block;
+    margin: 10px;
+    overflow: hidden;
+    line-height: 20px;
+    padding: 20px 5px 0 5px;
+}
+
+.overflowScroll {
+    width: 300px;
+    max-height: 140px;
+    border: 2px solid #000;
+    display: block;
+    margin: 10px;
+    overflow: scroll;
+    line-height: 20px;
+    padding: 20px 5px 0 5px;
+}
