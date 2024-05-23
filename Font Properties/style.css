@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+.fontFamily {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    font-family: Arial, sans-serif;
+}
+
+.fontSize {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+.fontWeight {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.fontStyle {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+.fontVariant {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    font-family: Arial, sans-serif;
+    font-variant: small-caps;
+}
