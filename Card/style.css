@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gainsboro;
+}
+
+.card_container {
+    max-width: 400px;
+    background: white;
+    margin: 20px auto 0 auto;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.card_container img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card_container h2 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.card_container .paragraphe_body {
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    margin: 10px 20px 30px 20px;
+    line-height: 25px;
+}
+
+.card_container .finaly_paragraphe {
+    font-weight: bold;
+    font-size: 19px;
+    margin: 10px 20px 0 20px;
+}
+
+.card_container .link_paragraphe {
+    margin: 0px 20px 30px 20px;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 16px;
+}
