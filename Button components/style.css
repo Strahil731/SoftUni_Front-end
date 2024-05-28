@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerOne,
+.containerTwo {
+    margin: 30px;
+}
+
+.containerOne h2 {
+    margin: 20px;
+}
+
+.containerTwo h2 {
+    margin: 20px;
+}
+
+.containerOne a {
+    margin: 5px 0 0 20px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.containerOne a.one {
+    background: lightgray;
+}
+
+.containerOne a.two {
+    background: orange;
+}
+
+.containerOne a.three {
+    background: beige;
+}
+
+.containerOne a.five {
+    padding: 10px 20px 10px 20px;
+    background: lightgray;
+}
+
+.containerTwo .button {
+    margin: 5px 0 0 20px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.containerTwo .one {
+    background: lightgray;
+}
+
+.containerTwo .two {
+    background: orange;
+}
+
+.containerTwo .three {
+    background: beige;
+}
+
+.containerTwo .four{
+    background: white;
+}
+
+.containerTwo .five {
+    padding: 10px 20px 10px 20px;
+    background: lightgray;
+}
