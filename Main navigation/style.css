@@ -1,0 +1,23 @@
+.main-container {
+    width: 95%;
+    margin: 30px auto 10px auto;
+    background: whitesmoke;
+    border: 1px solid lightgray;
+    display: flex;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.main-container a {
+    margin: 7px 10px 7px 10px;
+    padding: 10px;
+    background: white;
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid lightgray;
+}
+
+.main-container a:hover {
+    background: green;
+    color: white;
+}
