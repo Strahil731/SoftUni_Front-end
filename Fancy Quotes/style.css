@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    font-family: sans-serif;
+    background: lightgray;
+}
+
+.site {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2em;
+}
+
+.site>main {
+    flex: 0 0 70%;
+}
+
+.site>aside {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+section {
+    background: white;
+    padding: 2em;
+}
+
+.site>main section {
+    display: flex;
+    gap: 2em;
+}
+
+section .media {
+    flex: 0 0 30%;
+    display: flex;
+}
+
+section .avatar {
+    height: 100%;
+    min-height: 8em;
+    aspect-ratio: 1/1;
+    background: green;
+    border-radius: 50%;
+    padding: 0.3em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+section .avatar img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section+section {
+    margin-top: 2em;
+}
